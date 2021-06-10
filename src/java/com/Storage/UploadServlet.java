@@ -18,8 +18,8 @@ import org.apache.commons.fileupload.servlet.ServletFileUpload;
 @WebServlet("/UploadServlet")
 public class UploadServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-	//private static final String UPLOAD_DIRECTORY="C:/Users/windows10/Documents/NetBeansProjects/auction/web/product_img"; 
-        private static final String UPLOAD_DIRECTORY="C:\\Users\\windows10\\Documents\\NetBeansProjects\\uploadfile\\web\\product-img"; 
+	private static final String UPLOAD_DIRECTORY="C:/Users/windows10/Documents/NetBeansProjects/auction/web/product_img"; 
+        //private static final String UPLOAD_DIRECTORY="C:\\Users\\windows10\\Documents\\NetBeansProjects\\uploadfile\\web\\product-img"; 
      
         
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
